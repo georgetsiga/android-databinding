@@ -60,7 +60,7 @@ class PlainOldActivitySolution3 : AppCompatActivity() {
      * - It's updating two views when called even if they're not changing
      */
     private fun updateLikes() {
-        findViewById<TextView>(R.id.likes).text = viewModel.likes.toString()
+       /* findViewById<TextView>(R.id.likes).text = viewModel.likes.toString()
         findViewById<ProgressBar>(R.id.progressBar).progress =
             (viewModel.likes * 100 / 5).coerceAtMost(100)
         val image = findViewById<ImageView>(R.id.imageView)
@@ -69,7 +69,7 @@ class PlainOldActivitySolution3 : AppCompatActivity() {
 
         ImageViewCompat.setImageTintList(image, ColorStateList.valueOf(color))
 
-        image.setImageDrawable(getDrawablePopularity(viewModel.popularity, this))
+        image.setImageDrawable(getDrawablePopularity(viewModel.popularity, this))*/
     }
 
     private fun getAssociatedColor(popularity: Popularity, context: Context): Int {
