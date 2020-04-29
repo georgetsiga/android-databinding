@@ -22,8 +22,8 @@ import androidx.lifecycle.ViewModel
  * A simple VM for [com.example.android.databinding.basicsample.ui.PlainOldActivity].
  */
 class SimpleViewModel : ViewModel() {
-    val name = "Grace"
-    val lastName = "Hopper"
+    val name = "George"
+    val lastName = "Tsiga"
     var likes = 0
         private set // This is to prevent external modification of the variable.
 
